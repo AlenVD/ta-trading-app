@@ -12,7 +12,7 @@ class LoginPage(BasePage):
     EMAIL_INPUT = 'input[type="email"]'
     PASSWORD_INPUT = 'input[type="password"]'
     SUBMIT_BUTTON = 'button[type="submit"]'
-    ERROR_MESSAGE = 'text=/invalid credentials|user not found|invalid password/i'
+    ERROR_MESSAGE = 'text=/invalid credentials|user not found|invalid password|invalid email or password/i'
     REGISTER_LINK = 'text=/sign up|register|create account/i'
     LOGIN_LINK = 'text=/sign in|login|already have/i'
 
